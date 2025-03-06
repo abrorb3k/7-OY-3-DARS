@@ -26,13 +26,13 @@ function Products() {
 
   return (
     <div className="">
-      <label className="block ml-7 mt-5 font-bold text-red-800">QIDIRUV</label>
+      <label className="block ml-7 mt-5 font-bold text-red-800">QIDIRISH</label>
       <input
         type="text"
         value={search}
         onChange={handleSearch}
         placeholder="Search products..."
-        className="border p-1 mb-4 mt-1 ml-7 rounded-4xl bg-amber-400"
+        className="border p-2 mb-4 mt-2 ml-7 rounded-4xl bg-gray-400 text-red-800"
       />
       <div className="grid grid-cols-3 gap-10">
         {filteredProducts.map((product) => (
